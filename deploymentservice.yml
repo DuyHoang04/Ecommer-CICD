@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: ekart
-          image: duyhoang/ekart:latest # Image that will be used to containers in the cluster
+          image: duyhoang2/ekart:latest # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8070 # The port that the container is running on in the cluster
